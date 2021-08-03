@@ -1,0 +1,14 @@
+@media print{
+    .main__div * {
+        visibility: hidden;
+    }
+    .section-to-print, .section-to-print * {
+        visibility: visible;
+    }
+    .section-to-print{
+        font-size: 50px;
+        position: absolute;
+        left: 0;
+        top: 0;
+    }
+}
